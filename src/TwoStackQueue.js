@@ -12,7 +12,7 @@ class TwoStackQueue {
 
   enqueue(item) {
     this._stack1.push(item);
-    return this._stack1[this._stack1.length - 1];
+    return item;
   }
 
   dequeue() {
